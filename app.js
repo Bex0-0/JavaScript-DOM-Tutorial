@@ -74,3 +74,16 @@ tabs.addEventListener('click', (e) => {
     });
   }
 });
+
+// tabs.addEventListener('click', (e) => {
+//   if(e.target.tagName == 'LI'){
+//     // console.log(typeof e.target.getAttribute('data-target'));
+//     const targetPanel = document.querySelector(e.target.getAttribute('data-target'));
+//     // console.log(targetPanel);
+//     panels.forEach((panel) => {
+//       // console.log(panel);
+//       panel.classList.remove('active');
+//     });
+//     targetPanel.classList.add('active');
+//   }
+// });
